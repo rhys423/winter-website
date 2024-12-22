@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhys's winter website</title>
+    <style>
+        body {
+            height: 100vh;
+            overflow:hidden;
+            text-align: center;
+            font-family:cursive ;
+            background-image: linear-gradient(to bottom right,rgba(130, 130, 210, 0.774) , white );
+            padding-top: 40px;
+        }
+        h1
+        {
+            color: rgb(6, 2, 22);
+            animation: glow 2s ease-in-out alternate infinite;
+        }
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 20px #da4747;
+            }
+            100% {
+                text-shadow: 0 0 25px #27ba16d7;
+            }
+        }
+        .snowflake{
+            position: absolute;
+            top: -30px;
+            font-size: 30px;
+            animation: fall linear infinite;
+
+        }
+        @keyframes fall {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+.snowflake:nth-child(1) {
+            left: 10%;
+            animation-duration: 7s;
+        }
+        .snowflake:nth-child(2) {
+            left: 30%;
+            animation-duration: 4s;
+        }
+        .snowflake:nth-child(3) {
+            left: 50%;
+            animation-duration: 3s;
+        }
+        .snowflake:nth-child(4) {
+            left: 70%;
+            animation-duration: 5s;
+        
+        }
+        .snowflake:nth-child(5) {
+            left: 90%;
+            animation-duration: 6s;
+        
+        }
+
+        img
+         {
+            width: 350px;
+         }
+
+    </style>
+</head>
+<body>
+    
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <h1>happy holidays</h1>
+    <img src="https://thumbs.dreamstime.com/b/cute-kawaii-cat-expressive-face-snow-christmas-tree-sbiw-flakes-cartoon-style-animal-kitten-cute-kawaii-cat-330999352.jpg" alt="">
+    <h2>From Rhys,
+        have a very merry christmas and a happy new year. May all your christms wishes come true! </h2>
+</body>
+
+</html>
